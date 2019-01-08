@@ -9,4 +9,12 @@ public class ArrayUtil {
             System.out.println(obj);
         }
     }
+
+    public static void  printIntegerArray(int[] intArray)
+    {
+        for(int  value : intArray)
+        {
+            System.out.println(value);
+        }
+    }
 }
